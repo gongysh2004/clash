@@ -23,3 +23,9 @@ tmux a -t clash
 
 # To access the dashboard
 http://{your-ip}:9090/ui/
+
+first, add http://{your-ip}:9090 backend:
+![add backend](add-backend.png)
+
+then we can see the config:
+![config](config.png)
