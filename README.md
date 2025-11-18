@@ -11,6 +11,14 @@ copy your config file:
 ```
 cp your_config_file clash/config.yaml
 ```
+config the dashboard:
+```
+allow-lan: true
+mode: rule
+log-level: info
+external-ui: dashboard
+external-controller: '0.0.0.0:9090'
+```
 
 start the clash:
 ```
